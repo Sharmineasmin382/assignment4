@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+
+</head>
+<body bgcolor="White">
+  <center>
+ <form method="GET">
+ 
+ <h2><u>Student Registration Form</u></h2>
+ <table border="0" bgcolor="grey" align="center"cellspacing="20" height="300" width="800" >
+ 
+ <tr>
+ <td align="center">FIRST NAME:</td>
+ <td><textarea cols="42" rows="2" placeholder="First Name" input type="text" required></textarea></td> 
+ </tr>
+ 
+ <tr>
+ <td align="center">LAST NAME:</td>
+ <td><textarea cols="42" rows="2" placeholder="Last Name" input type="text"  required></textarea></td> 
+ </tr>
+ 
+ <tr>
+ <td align="center">E-MAIL:</td>
+ <td><textarea cols="42" rows="2" placeholder="example@gmail.com" input type="text" required></textarea></td> 
+ </tr>
+ <tr>
+ <td align="center">ADRESS:</td>
+ <td><textarea cols="42" rows="5"></textarea></td>
+ </tr>
+ 
+ 
+ <tr>
+ <td align="center">PASSWORD:</td>
+ <td><input type="password" placeholder="password" size="30" required ></td>
+ </tr>
+ 
+  <tr>
+ <td>CONFIRM PASSWORD:</td>
+   <td><input type="password" placeholder="password" size="30" required></td>
+ </tr>
+  
+  <tr>
+ <td align="center">MOBILE NUMBER:</td>
+ <td><input type="number"  placeholder="mobile number" pattern="[0-9]{10}" size="40" required></td>
+ </tr>
+ <tr>
+ <td align="center">DATE OF BIRTH:</td>
+ <td required>
+ <select name="day" id="day">
+ <option value="day">day</option>
+ <option value="1">1</option>
+ <option value="2">2</option>
+ <option value="3">3</option>
+ <option value="4">4</option>
+ <option value="4">5</option>
+ </select>
+ 
+ <select name="month" id="month">
+ <option value="month">month</option>
+ <option value="1">Jan</option>
+ <option value="2">Feb</option>
+ <option value="3">March</option>
+ <option value="4">April</option>
+ <option value="4">May</option>
+ </select>
+ 
+ <select name="year" id="year">
+ <option value="year">year</option>
+ <option value="1">2001</option>
+ <option value="2">2002</option>
+ <option value="3">2003</option>
+ <option value="4">2004</option>
+ <option value="4">2005</option>
+ </select>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">GENDER:</td>
+ <td >
+ <input type="Radio" name="male" value="Gender" checked><span>male</span>
+ <input type="Radio" name="Female" value="Gender"><span>Female</span>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">UPLOAD PHOTO:</td>
+ <td><input type="file" name="photo"></td>
+ 
+ </tr>
+
+ <tr>
+ <td align="center">CITY:</td>
+ <td><input type="text" name="city" value="Dhaka"></td>
+ </tr>
+ <tr>
+ <td align="center">PIN CODE:</td>
+ <td><input type="text" name="pin_code" value="2299"></td>
+ </tr>
+ <tr>
+ <td align="center">COUNTRY:</td>
+ <td><input type="text" name="country" value="Bangladesh" readonly="readonly"></td>
+ 
+ </tr>
+ <tr>
+ <td align="center">FAVOURITE GAME:</td>
+ <td>
+ <input type="checkbox" name="cricket" value="favourite game"><span> Cricket</span>
+ </br>
+ <input type="checkbox" name="hockey" value="favourite game" checked><span> Hockey </span>
+ </br>
+ <input type="checkbox" name="football" value="favourite game"><span> football</span>
+ </td>
+ </tr>
+ <tr>
+ <td align="center">QUALIFICATION:</td>
+ <td>
+ <table border="1" bgcolor="White">
+ <tr>
+   <th>SL.NO</th>
+    <th>EXAMINATION</th>
+	 <th>BOARD</th>
+	  <th>YEAR OF PASSING</th>
+ </tr>
+ <tr>
+ <td>1</td>
+ <td>Class X</td>
+ <td><input type="text" name="QUALIFICATION"></td>
+ <td><input type="text" name="QUALIFICATION"></td>
+ 
+ </tr>
+ 
+  <tr>
+ <td>2</td>
+ <td>Class XII</td>
+ <td><input type="text" name="QUALIFICATION" value="Dhaka"></td>
+ <td><input type="text" name="QUALIFICATION" value="2012"></td>
+ 
+ </tr>
+ </table>
+ </td>
+ 
+ </tr>
+ <tr>
+ <td align="center">COURSE APPLIED FOR:</td>
+ <td required><input type="radio" name="course" checked>B.TECH
+     <input type="radio" name="course">B.COM
+	 <input type="radio" name="course">BSC
+	 <input type="radio" name="course">BCA
+ </td>
+ </tr>
+ </table></br>
+ <div>
+ <input type="Submit" name="Submit">
+ <input type="Reset" name="Reset" >
+ </div>
+</body>
+</html>
